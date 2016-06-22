@@ -1,0 +1,12 @@
+#! /bin/bash
+
+echo ""
+echo -n "Select the file to be uploaded : "
+
+x=$( zenity --file-selection )
+
+echo $x
+
+echo $x > uploadfilepath
+
+exit 0

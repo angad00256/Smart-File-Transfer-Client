@@ -1,0 +1,6 @@
+#! /bin/bash
+
+chmod +w $1
+mv $1 downloads
+
+exit 0
